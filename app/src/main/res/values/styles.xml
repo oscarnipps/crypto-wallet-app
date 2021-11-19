@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/brand_primary_light</item>
+        <item name="colorPrimaryVariant">@color/brand_primary_dark</item>
+        <item name="colorSecondary">@color/brand_primary_light</item>
+        <item name="colorSecondaryVariant">@color/brand_secondary</item>
+        <item name="colorOnPrimary">@color/brand_on_primary_color</item>
+        <item name="colorOnSecondary">@color/brand_on_secondary_color</item>
+        <item name="colorError">@color/design_default_color_error</item>
+        <item name="colorOnError">#ffffff</item>
+        <item name="colorSurface">@color/brand_dark_surface</item>
+        <item name="colorOnSurface">@color/brand_on_dark_surface</item>
+        <item name="android:colorBackground">@color/brand_dark_background</item>
+        <item name="colorOnBackground">@color/brand_on_dark_background</item>
+        <item name="android:statusBarColor" tools:ignore="NewApi">?attr/colorSurface</item>
+
+        <!--system -->
+        <item name="android:windowLightStatusBar" tools:ignore="NewApi">true</item>
+        <item name="android:navigationBarColor" tools:ignore="NewApi">?android:attr/colorBackground</item>
+        <item name="android:windowLightNavigationBar" tools:ignore="NewApi">true</item>
+    </style>
+
+    <style name="Widget.CryptoWallet.BottomNavigationView" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">?attr/colorSurface</item>
+    </style>
+
+</resources>

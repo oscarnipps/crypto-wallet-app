@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="brand_primary">#D88913</color>
+
+    <color name="primaryLightColor">#D88913</color>
+    <color name="brand_primary_light">#D88913</color>
+
+    <color name="brand_primary_dark">#0076b9</color>
+    <color name="primaryDarkColor">#0076b9</color>
+
+    <color name="secondaryColor">#c62828</color>
+    <color name="brand_secondary">#c62828</color>
+
+    <color name="secondaryLightColor">#ff5f52</color>
+    <color name="brand_secondary_light">#ff5f52</color>
+
+    <color name="secondaryDarkColor">#8e0000</color>
+    <color name="brand_secondary_dark">#8e0000</color>
+
+    <color name="primaryTextColor">#000000</color>
+    <color name="brand_on_primary_color">#000000</color>
+
+    <color name="secondaryTextColor">#ffffff</color>
+    <color name="brand_on_secondary_color">#ffffff</color>
+
+    <!--surface colors-->
+    <color name="brand_dark_surface">#303241</color>
+    <color name="brand_light_surface">#ffffff</color>
+
+    <!--on surface colors-->
+    <color name="brand_on_dark_surface">#ffffff</color>
+    <color name="brand_on_light_surface">#000000</color>
+
+    <!--background colors-->
+    <color name="brand_dark_background">#303241</color>
+    <color name="brand_light_background">#ffffff</color>
+
+    <!--on background colors-->
+    <color name="brand_on_dark_background">#ffffff</color>
+    <color name="brand_on_light_background">#000000</color>
+
+    <color name="activeIndicators">#f18e07</color>
+    <color name="inactiveIndicator">#494b5b</color>
+
+    <color name="icon_color_grey">#797b8a</color>
+    <color name="icon_background_color">#2a2c39</color>
+    <color name="text_color_grey">#6f7281</color>
+    <color name="text_color_grey_medium">#6c6f7e</color>
+    <color name="text_color_light_grey">#474a59</color>
+    <color name="icon_color_orange">#f18f07</color>
+    <color name="primary_wallet_orange">#fd9600</color>
+    <color name="wallet_background_color_grey">#494c5c</color>
+    <color name="wallet_background_curve">#424453</color>
+
+
+</resources>

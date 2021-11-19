@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="Adrian Agoh"
+            android:textColor="@color/brand_on_secondary_color"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="@+id/amount_tag"
+            app:layout_constraintHorizontal_bias="0.09"
+            app:layout_constraintHorizontal_chainStyle="spread_inside"
+            app:layout_constraintStart_toStartOf="@+id/amount_tag"
+            app:layout_constraintTop_toBottomOf="@+id/amount_tag" />
+
+        <TextView
+            android:id="@+id/amount_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="Sep 06, 2021"
+            android:textColor="#817d7f"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/info"
+            app:layout_constraintTop_toTopOf="@+id/info" />
+
+        <TextView
+            android:id="@+id/view_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_small_arrow_right"
+            android:lineSpacingExtra="8dp"
+            android:text="$123.98"
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:textColor="@color/brand_on_secondary_color"
+            app:drawableTint="#FF9800"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.6" />
+
+        <ImageView
+            android:id="@+id/info"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="16dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_notification"
+            android:background="@drawable/bg_icon"
+            android:tint="#FFFFFF"
+            android:padding="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.53" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="Adrian Agoh"
+            android:textColor="@color/brand_on_secondary_color"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="@+id/amount_tag1"
+            app:layout_constraintHorizontal_bias="0.09"
+            app:layout_constraintHorizontal_chainStyle="spread_inside"
+            app:layout_constraintStart_toStartOf="@+id/amount_tag1"
+            app:layout_constraintTop_toBottomOf="@+id/amount_tag1" />
+
+        <TextView
+            android:id="@+id/amount_tag1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="Sep 06, 2021"
+            android:textColor="#817d7f"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/info1"
+            app:layout_constraintTop_toTopOf="@+id/info1" />
+
+        <TextView
+            android:id="@+id/view_all1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_small_arrow_right"
+            android:lineSpacingExtra="8dp"
+            android:text="$123.98"
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:textColor="@color/brand_on_secondary_color"
+            app:drawableTint="#FF9800"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.6" />
+
+        <ImageView
+            android:id="@+id/info1"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="16dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_notification"
+            android:background="@drawable/bg_icon"
+            android:tint="#FFFFFF"
+            android:padding="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.53" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="Adrian Agoh"
+            android:textColor="@color/brand_on_secondary_color"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="@+id/amount_tag3"
+            app:layout_constraintHorizontal_bias="0.09"
+            app:layout_constraintHorizontal_chainStyle="spread_inside"
+            app:layout_constraintStart_toStartOf="@+id/amount_tag3"
+            app:layout_constraintTop_toBottomOf="@+id/amount_tag3" />
+
+        <TextView
+            android:id="@+id/amount_tag3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="Sep 06, 2021"
+            android:textColor="#817d7f"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/info3"
+            app:layout_constraintTop_toTopOf="@+id/info3" />
+
+        <TextView
+            android:id="@+id/view_all3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_small_arrow_right"
+            android:lineSpacingExtra="8dp"
+            android:text="$123.98"
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:textColor="@color/brand_on_secondary_color"
+            app:drawableTint="#FF9800"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.6" />
+
+        <ImageView
+            android:id="@+id/info3"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="16dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_notification"
+            android:background="@drawable/bg_icon"
+            android:tint="#FFFFFF"
+            android:padding="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.53" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="Adrian Agoh"
+            android:textColor="@color/brand_on_secondary_color"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="@+id/amount_tag4"
+            app:layout_constraintHorizontal_bias="0.09"
+            app:layout_constraintHorizontal_chainStyle="spread_inside"
+            app:layout_constraintStart_toStartOf="@+id/amount_tag4"
+            app:layout_constraintTop_toBottomOf="@+id/amount_tag4" />
+
+        <TextView
+            android:id="@+id/amount_tag4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="Sep 06, 2021"
+            android:textColor="#817d7f"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/info4"
+            app:layout_constraintTop_toTopOf="@+id/info4" />
+
+        <TextView
+            android:id="@+id/view_all4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_small_arrow_right"
+            android:lineSpacingExtra="8dp"
+            android:text="$123.98"
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:textColor="@color/brand_on_secondary_color"
+            app:drawableTint="#FF9800"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.6" />
+
+        <ImageView
+            android:id="@+id/info4"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="16dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_notification"
+            android:background="@drawable/bg_icon"
+            android:tint="#FFFFFF"
+            android:padding="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.53" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    
+</LinearLayout>

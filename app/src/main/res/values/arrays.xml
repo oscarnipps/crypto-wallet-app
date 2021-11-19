@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="on_boarding_images">
+        <item>@drawable/ic_wallet_icon</item>
+        <item>@drawable/ic_notification</item>
+        <item>@drawable/ic_money</item>
+        <item>@drawable/ic_chart</item>
+    </array>
+
+    <array name="transaction_icons">
+        <item>@drawable/ic_wallet_icon</item>
+        <item>@drawable/ic_notification</item>
+        <item>@drawable/ic_money</item>
+        <item>@drawable/ic_chart</item>
+    </array>
+
+</resources>

@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">crypto wallet</string>
+
+    <string-array name="wallet_rates">
+        <item>BTC 0.214567</item>
+        <item>ZEN 1.214567</item>
+        <item>DGE 0.214567</item>
+        <item>APT 0.214567</item>
+    </string-array>
+
+    <string-array name="wallet_balance_amounts">
+        <item>$6,345</item>
+        <item>$5,445</item>
+        <item>$2,345</item>
+        <item>$1,045</item>
+    </string-array>
+
+    <string-array name="transaction_amounts">
+        <item>$123.98</item>
+        <item>$887.34</item>
+        <item>$778.12</item>
+        <item>$396.84</item>
+    </string-array>
+
+    <string-array name="transaction_receivers">
+        <item>Adrian Agoh</item>
+        <item>John Snow</item>
+        <item>Jiraya Sama</item>
+        <item>Arya Stark</item>
+    </string-array>
+
+    <string-array name="transaction_dates">
+        <item>Sep 06, 2021</item>
+        <item>Sep 01, 2021</item>
+        <item>Aug 25, 2021</item>
+        <item>Aug 12, 2021</item>
+    </string-array>
+
+    <string-array name="wallet_balance">
+        <item>$6,345</item>
+        <item>$5,445</item>
+        <item>$2,345</item>
+        <item>$1,045</item>
+    </string-array>
+
+    <string-array name="account_names">
+        <item>BTC ACCOUNT</item>
+        <item>ZEN ACCOUNT</item>
+        <item>DGE ACCOUNT</item>
+        <item>APT ACCOUNT</item>
+    </string-array>
+
+</resources>
